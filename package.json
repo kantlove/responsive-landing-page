@@ -1,0 +1,46 @@
+{
+  "name": "responsive-landing-page",
+  "version": "0.1.0",
+  "description": "A simple landing page designed for desktop and phone.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantlove/responsive-landing-page.git"
+  },
+  "keywords": [
+    "landing-page",
+    "web",
+    "responsive",
+    "jade",
+    "typescript",
+    "scss"
+  ],
+  "author": "minhthai",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kantlove/responsive-landing-page/issues"
+  },
+  "homepage": "https://github.com/kantlove/responsive-landing-page#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.32",
+    "del": "^2.2.2",
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-help": "^1.6.1",
+    "gulp-pug": "^3.0.4",
+    "gulp-pug-lint": "^0.1.6",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-tslint": "^6.1.1",
+    "gulp-typescript": "^3.0.0",
+    "jquery": "^3.1.1",
+    "js-yaml": "^3.6.1",
+    "pug": "^2.0.0-beta6",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
+  }
+}

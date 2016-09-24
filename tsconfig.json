@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "out",
+    "removeComments": true,
+		"sourceMap": true,
+    "noImplicitUseStrict": false,
+    "types": ["jquery"]
+  },
+  "exclude": [
+    "node_modules",
+    "out"
+  ]
+}

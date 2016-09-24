@@ -1,0 +1,19 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    /*
+     * Any rules specified here will override those from the base config we are extending
+     */
+    "no-reference": false,
+    "no-var-requires": false,
+    "no-var-keyword": false,
+    "no-console": [false],
+    "one-line": [true, "check-open-brace", "check-whitespace"],
+    "member-ordering": [false],
+    "one-variable-per-declaration": false,
+    "interface-name": [true, "never-prefix"],
+    "max-line-length": [false],
+    "no-string-literal": false,
+    "object-literal-sort-keys": false
+  }
+}

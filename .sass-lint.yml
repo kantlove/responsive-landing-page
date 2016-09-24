@@ -1,0 +1,16 @@
+# Format to specify a rule:
+# <rule-name>:
+#   - <severity>: 0 = disable, 1 = warning, 2 = error
+#   - <option 1>
+#     <option 2> ...
+#
+# If just severity:
+# <rule-name>: <severity>
+
+files:
+  include: 'src/**/*.sass'
+rules:
+  indentation:
+    - 1
+    - size: 2
+  no-color-literals: 0
